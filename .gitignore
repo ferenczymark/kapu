@@ -1,0 +1,24 @@
+# Függőségek (Ezeket sosem töltjük fel, mert a package.json alapján bárki le tudja generálni)
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build fájlok
+/.next/
+/out/
+/build
+
+# Tesztelési és debug fájlok
+/coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac OS rejtett rendszerfájl
+.DS_Store
+
+# Titkos kulcsok és környezeti változók (EZ VÉDI A JELSZAVAIDAT)
+.env
+.env.development
+.env.production
+*.pem
